@@ -12,7 +12,9 @@ keiyoushi {
     theme = "mangaworld"
 
     source {
-        lang = "it"
-        baseUrl = "https://www.mangaworld.mx"
+    lang = "it"
+    baseUrl {
+        custom("https://www.mangaworld.me")
     }
+}
 }
