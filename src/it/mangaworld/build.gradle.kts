@@ -1,4 +1,3 @@
-
 import io.github.keiyoushi.gradle.api.ContentWarning
 
 plugins {
@@ -14,8 +13,6 @@ keiyoushi {
 
     source {
         lang = "it"
-        baseUrl {
-            custom("https://www.mangaworld.me")
-        }
+        baseUrl = "https://www.mangaworld.me"
     }
 }
