@@ -8,7 +8,7 @@ import eu.kanade.tachiyomi.source.model.SManga
 import keiyoushi.network.Fetch
 import keiyoushi.network.get
 import keiyoushi.source.KeiSource
-import keiyoushi.source.SMangaUpdate
+import eu.kanade.tachiyomi.source.model.SMangaUpdate
 import keiyoushi.utils.asJsoup
 import keiyoushi.utils.tryParseDate
 import kotlinx.serialization.json.JsonElement
